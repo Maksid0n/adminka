@@ -1,0 +1,5 @@
+{
+	"LOGIN" : "admin",
+	"PSWD" : "admin",
+	"MONGO_URL" : "mongodb://<user>:<password>@<mlaburl>"
+}

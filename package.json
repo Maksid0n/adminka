@@ -1,0 +1,25 @@
+{
+  "name": "administration-react",
+  "version": "1.0.0",
+  "description": "Empty template project to start development administration web applicationEmpty template project to start development administration web application",
+  "engines": {
+    "node": "6.11.x"
+  },
+  "scripts": {
+    "start": "node server",
+    "heroku-postbuild": "cd react-ui/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "dependencies": {
+    "express": "^4.14.1",
+    "body-parser": "^1.18.2",
+    "fs": "0.0.1-security",
+    "mongoose": "^4.13.9",
+    "react-router-dom": "^4.2.2",
+    "async": "^2.6.0"
+  },
+  "devDependencies": {}
+}
